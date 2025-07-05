@@ -17,5 +17,6 @@ public class addTwoIntegers {
 		number2=reader.nextInt();
 		int total1=number1+number2;
 		System.out.println("The Sum of "+number1+" and "+number2+" is "+total1);
+		reader.close();
 	}
 }

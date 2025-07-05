@@ -17,5 +17,6 @@ public static void main(String[] args) {
 	number2=reader.nextFloat();
 	float Product1=number1*number2;
 	System.out.println("The product is "+Product1);
+	reader.close();
 }
 }

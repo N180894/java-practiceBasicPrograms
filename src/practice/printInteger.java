@@ -12,5 +12,6 @@ public static void main(String[] args) {
 	Scanner num=new Scanner(System.in);//takes input from the keyboard
 	b=num.nextInt();//reads all entered integers from the keyboard unless it encounters a new line character \n (Enter)
 	System.out.println("The user Entered Integer is:"+b);
+	num.close();
 }
 }

@@ -15,7 +15,7 @@ public class evenOrOdd {
 		else {
 			System.out.println("The Entered number is an odd number");
 		}
-
+		reader.close();
 	}
 
 }

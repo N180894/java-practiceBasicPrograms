@@ -20,6 +20,7 @@ public class vowelOrConsonant {
 			}
 			
 		}
+		reader.close();
 		
 	}
 }
